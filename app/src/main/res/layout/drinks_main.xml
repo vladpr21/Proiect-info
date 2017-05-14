@@ -1,0 +1,152 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00b0ff"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="goBack"
+            android:text="Food"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="goNext"
+            android:text="Order"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Drinks"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/textView"
+            android:text="Beer and Cider"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="-47dp"
+            android:layout_below="@+id/textView1"
+            android:text="
+
+
+HIVER HONEY BEER, ENGLAND (330ML)
+€3.75
+BULMER’S CIDER, ENGLAND (558ML)
+€5.25
+CORONA, MEXICO (330ML)
+€3.65
+PERONI, ITALY (330ML)
+€3.75
+FIREBRAND GRAFFITI IPA (300ML)
+€3.75
+FIREBRAND TABLE PA (300ML)
+€3.75
+
+"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="-10dp"
+            android:layout_below="@+id/textView3"
+            android:text="Wines"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="-24dp"
+            android:layout_below="@+id/textView4"
+            android:text="
+
+VERDICCHIO DEI CASTELLI CLASSICO, MARCHE, ITALY
+€21.95
+
+TE KAIRANGA RIESLING, MARTINBOROUGH, NEW ZEALAND
+€24.95
+
+SON EXCELLENCE SAUVIGNON BLANC, CÔTES DE GASCOGNE, FRANCE
+€20.95
+
+GRANFORT UNWOODED CHARDONNAY, PAYS D’OC, FRANCE - 2012
+€22.95
+
+CHAPEL DOWN BACCHUS, KENT, UNITED KINGDOM - 2012
+€29.50
+
+GRANFORT MERLOT, PAYS D’OC, FRANCE - 2012
+€22.95
+
+PASSORI ROSSO, VENETO
+€23.95
+
+CALLIA MALBEC, MENDOZA, ARGENTINA - 2013
+€21.95
+
+CHATEAU LAMOTHE-CISSAC, HAUTE-MEDOC, BORDEUX, FRANCE - 2006
+€35.50
+"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="getHome"
+            android:layout_below="@+id/textView5"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>
